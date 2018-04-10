@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="sans-serif"
+    android:text="State Nick Names Quiz"
+    android:textAlignment="center"
+    android:textAllCaps="true"
+    android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="1.Which state is called The Buckeye State?"
+        android:textSize="16sp" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/question_1">
+
+    <RadioButton
+        android:id="@+id/q1_a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ohio" />
+
+    <RadioButton
+        android:id="@+id/q1_a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alabama" />
+
+    <RadioButton
+        android:id="@+id/q1_a3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Georgia" />
+
+    <RadioButton
+        android:id="@+id/q1_a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Virgina" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="2.Which state is called The Treasure State?"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_2">
+
+    <RadioButton
+        android:id="@+id/q2_a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arkansas" />
+
+    <RadioButton
+        android:id="@+id/q2_a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Montana" />
+
+    <RadioButton
+        android:id="@+id/q2_a3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Florida" />
+
+    <RadioButton
+        android:id="@+id/q2_a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indiana" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="3.Which state is called The Gem State?"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/question_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    <RadioButton
+        android:id="@+id/q3_a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New York" />
+
+    <RadioButton
+        android:id="@+id/q3_a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Idaho" />
+
+    <RadioButton
+        android:id="@+id/q3_a3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arizona" />
+
+    <RadioButton
+        android:id="@+id/q3_a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texas" />
+</RadioGroup>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:textSize="16sp"
+    android:text="4.Which state is called The Equality State?" />
+
+<RadioGroup
+    android:id="@+id/question_4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+<RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Wyoming"
+    android:id="@+id/q4_a1" />
+
+<RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Washington"
+    android:id="@+id/q4_a2" />
+
+<RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Wisconsin"
+    android:id="@+id/q4_a3" />
+
+<RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Michigan"
+    android:id="@+id/q4_a4" />
+
+</RadioGroup>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:textSize="16sp"
+    android:text="5.Which state is called The Bluegrass State?" />
+
+<RadioGroup
+    android:id="@+id/question_5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+<RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Kentucky"
+    android:id="@+id/q5_a1" />
+
+<RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Iowa"
+    android:id="@+id/q5_a2" />
+
+<RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Maryland"
+    android:id="@+id/q5_a3" />
+
+<RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Colorado"
+    android:id="@+id/q5_a4" />
+</RadioGroup>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:textSize="16sp"
+    android:text="6.Which state is called The Bay State?" />
+
+<RadioGroup
+    android:id="@+id/question_6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+<RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Louisiana"
+    android:id="@+id/q6_a1" />
+
+<RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Rhode Island"
+    android:id="@+id/q6_a2" />
+
+<RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Massachusetts"
+    android:id="@+id/q6_a3" />
+
+<RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Nebraska"
+    android:id="@+id/q6_a4" />
+</RadioGroup>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:textSize="16sp"
+    android:text="7.Which of the following are considered US territories?"/>
+
+   <CheckBox
+    android:text="Northern Mariana Islands"
+    android:id="@+id/q7_a1"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    />
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Puerto Rico"
+    android:id="@+id/q7_a2"
+   />
+
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Sumatra"
+    android:id="@+id/q7_a3"
+    />
+
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Capri"
+    android:id="@+id/q7_a4"
+    />
+
+    <TextView
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:textSize="16sp"
+    android:text="8.Which state is called The Hoosier State?" />
+
+<EditText
+    android:id="@+id/q8_a"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="Actual State Name" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<Button
+    android:id="@+id/submit_button"
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:text="Submit"
+    android:onClick="checkScore" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:onClick="reset"/>
+</LinearLayout>
+</ScrollView>
+
